@@ -5,28 +5,100 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Рекламно-информационное агентство</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+    <!-- Header -->
     <header class="header">
-        <div class="header_container">
-            <div class="logo">
-                <img src="img/logo_header.png" alt="#">
+        <div class="container header_container">
+            <div class="wrapper">
+                <div class="logo header_logo">
+                    <img src="img/logo_header.png" alt="#">
+                </div>
+                <div class="row">
+                    <p>
+                        Услуги
+                        Портфолио
+                        Отзывы
+                        Вакансии
+                        Контакты
+                    </p>
+                </div>
             </div>
+            <div class="contacts">
+                <span>8(863)243-15-10</span>
+                Ростов-на-Дону
+            </div>
+        </div>
+    </header>
+
+    <!-- Main -->
+    <main class="main">
+        <div class="container main_container">
+            <div class="main_content">
+                <h1>Рекламно-информационное агентство</h1>
+                <p>Будем рады, если Вы обратитесь в наше Агентство. Мы готовы <br>предложить Вам передовые решения для продвижения <br> Вашего бизнеса.</p>
+                <input class="main_input main_phone_number" type="text" placeholder="Номер телефона">
+                <button class="main_input main_btn_callback" type="submit">Обратный звонок</button>
+            </div>
+        </div>
+    </main>
+
+    <!-- News -->
+    <section class="news">
+    <div class="container news_container">
+        <div class="news_header">
+            <h2>Новости</h2>
+        </div>
+        <div class="news_blocks">
+            <div class="news_left-rectangle-block"></div>
+            <div class="news_block-row">
+                <div class="first news_block">
+                    15.10.2020<br>
+                    <span>Акции на размещение баннерного панно 20% до конца июля</span>
+                    <button class="news_btn-more" type="button">Подробнее</button>
+                </div>
+                <div class="second news_block">
+                    10.10.2020<br>
+                    <span>Мы работаем в обычном режиме с 15 июня!</span>
+                    <button class="news_btn-more" type="button">Подробнее</button>
+                </div>
+                <div class="third news_block">
+                    08.10.2020<br>
+                    <span>Как правильно подобрать рекламный канал?</span>
+                    <button class="news_btn-more" type="button">Подробнее</button>
+                </div>
+            </div>
+            <div class="news_right-rectangle-block"></div>
+        </div>
+        <div class="news_slider">
+            <div class="news_slider_wrapper">
+                <input class="input_news_slider" type="radio">
+                <input class="input_news_slider" type="radio">
+                <input class="input_news_slider" type="radio">
+            </div>
+        </div>
+    </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer_container">
+            <div class="logo footer_logo">
+                <img src="img/logo_footer.png" alt="#">
+            </div>
+            <div class="row">
                 <p>Услуги</p>
                 <p>Портфолио</p>
                 <p>Отзывы</p>
                 <p>Вакансии</p>
                 <p>Контакты</p>
-            <div class="contacts">
-                <p>8(863)243-15-10
-                    Ростов-на-Дону
-                </p>
             </div>
-
         </div>
-    </header>
-    <footer></footer>
+    </footer>
 
     <script src="js/script.js"></script>
 </body>
