@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<!--тут текст страницы на русском соотвественно надо поменять на ru-->
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -18,7 +19,12 @@
                 <div class="logo header_logo">
                     <img src="img/logo_header.png" alt="#">
                 </div>
+                <!--header row желательно задавать не через div, а через специальный тег nav-->
                 <div class="header_row">
+                <!--это похоже на список лучше обернуть внутри ul или ol-->
+
+                <!--если используем список вместо тега p соответственно лучше прописывать тег li-->
+                <!--внутри тега li дополнительно оборачивать каждый элемент списка в тег a(поскольку они являются ссылками для навигации) -->
                     <p>Услуги</p>
                     <p>Портфолио</p>
                     <p>Отзывы</p>
@@ -27,6 +33,7 @@
                 </div>
             </div>
             <div class="contacts">
+                <!--поменять тег на span на a (пример - <a href="tel:+1234567890">+1234567890</a>)-->
                 <span>8(863)243-15-10</span>
                 Ростов-на-Дону
             </div>
@@ -58,6 +65,7 @@
                 </div>
                     <div class="news_block-row">
                         <div class="first news_block">
+                            <!--лучше дату обернуть в тег если в div несколько тегов-->
                             15.10.2020<br>
                             <span>Акции на размещение баннерного панно 20% до конца июля</span>
                             <button class="news_btn-more" type="button">Подробнее</button>
@@ -78,6 +86,7 @@
             </div>
             <div class="news_slider">
                 <div class="news_slider_wrapper">
+                <!-- лучше поменять на span кругляши-->
                     <input class="input_news_slider left_radio_button" type="radio">
                     <input class="input_news_slider middle_radio_button" type="radio">
                     <input class="input_news_slider right_radio_button" type="radio">
@@ -92,7 +101,12 @@
             <div class="logo footer_logo">
                 <img src="img/logo_footer.png" alt="#">
             </div>
+            <!--footer row желательно задавать не через div, а через специальный тег nav-->
             <div class="footer_row">
+                <!--это похоже на список лучше обернуть внутри ul или ol-->
+
+                <!--если используем список вместо тега p соответственно лучше прописывать тег li-->
+                <!--внутри тега li дополнительно оборачивать каждый элемент списка в тег a(поскольку они являются ссылками для навигации)-->
                 <p>Услуги</p>
                 <p>Портфолио</p>
                 <p>Отзывы</p>
