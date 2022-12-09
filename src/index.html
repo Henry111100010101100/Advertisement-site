@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -11,96 +11,112 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <!-- Header -->
-    <header class="header">
-        <div class="container header_container">
-            <div class="wrapper">
-                <div class="logo header_logo">
-                    <img src="img/logo_header.png" alt="#">
-                </div>
-                <div class="header_row">
-                    <p>Услуги</p>
-                    <p>Портфолио</p>
-                    <p>Отзывы</p>
-                    <p>Вакансии</p>
-                    <p>Контакты</p>
-                </div>
-            </div>
-            <div class="contacts">
-                <span>8(863)243-15-10</span>
-                Ростов-на-Дону
-            </div>
-        </div>
-    </header>
-
-    <!-- Main -->
-    <main class="main">
-        <div class="container main_container">
-            <div class="main_content">
-                <h1>Рекламно-информационное агентство</h1>
-                <p>Будем рады, если Вы обратитесь в наше Агентство. Мы готовы предложить Вам передовые решения для продвижения Вашего бизнеса.</p>
-                <input class="main_input main_phone_number" type="text" placeholder="Номер телефона">
-                <button class="main_input main_btn_callback" type="submit">Обратный звонок</button>
-            </div>
-        </div>
-    </main>
-
-    <!-- News -->
-    <section class="news">
-        <div class="container news_container">
-            <div class="news_header">
-                <h2>Новости</h2>
-            </div>
-            <div class="news_blocks">
-                <div class="news_blocks_wrapper">
-                    <div class="news_left-rectangle-block"></div>
-                    <div class="news_right-rectangle-block"></div>
-                </div>
-                    <div class="news_block-row">
-                        <div class="first news_block">
-                            15.10.2020<br>
-                            <span>Акции на размещение баннерного панно 20% до конца июля</span>
-                            <button class="news_btn-more" type="button">Подробнее</button>
-                        </div>
-                        <div class="second news_block">
-                            10.10.2020<br>
-                            <span>Мы работаем в обычном режиме с 15 июня!</span>
-                            <button class="news_btn-more" type="button">Подробнее</button>
-                        </div>
-                        <div class="third news_block">
-                            08.10.2020<br>
-                            <span>Как правильно подобрать рекламный канал?</span>
-                            <button class="news_btn-more" type="button">Подробнее</button>
-                        </div>
+    <div class="container"> 
+        
+        <!-- Header -->
+        <header class="header">
+            <div class="header_container">
+                <div class="wrapper">
+                    <div class="logo header_logo">
+                        <img src="img/logo_header.png" alt="#">
                     </div>
-                        
-                
-            </div>
-            <div class="news_slider">
-                <div class="news_slider_wrapper">
-                    <input class="input_news_slider left_radio_button" type="radio">
-                    <input class="input_news_slider middle_radio_button" type="radio">
-                    <input class="input_news_slider right_radio_button" type="radio">
+                    <nav class="header_row">
+                        <ul>
+                            <li><a>Услуги</a></li>
+                            <li><a>Портфолио</a></li>
+                            <li><a>Отзывы</a></li>
+                            <li><a>Вакансии</a></li>
+                            <li><a>Контакты</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="contacts">
+                    <a href="tel:8(863)243-15-10">8(863)243-15-10</a>
+                    Ростов-на-Дону
                 </div>
             </div>
-        </div>
-    </section>
+        </header>
 
-    <!-- Footer -->
-    <footer class="footer">
-        <div class="container footer_container">
-            <div class="logo footer_logo">
-                <img src="img/logo_footer.png" alt="#">
+        <!-- Main -->
+        <main class="main">
+            <div class="main_container">
+                <div class="main_content">
+                    <h1>Рекламно-информационное агентство</h1>
+                    <p>Будем рады, если Вы обратитесь в наше Агентство. Мы готовы <br> предложить Вам передовые решения для продвижения <br> Вашего бизнеса.</p>
+                    <div class="input_wrapper">
+                        <input class="main_input main_phone_number" type="text" placeholder="Номер телефона">
+                        <button class="main_input main_btn_callback" type="submit">Обратный звонок</button>
+                    </div>
+                </div>
             </div>
-            <div class="footer_row">
-                <p>Услуги</p>
-                <p>Портфолио</p>
-                <p>Отзывы</p>
-                <p>Вакансии</p>
-                <p>Контакты</p>
+        </main>
+
+        <!-- News -->
+        <section class="news">
+            <div class="news_container">
+                <div class="news_header">
+                    <h2>Новости</h2>
+                </div>
+                <div class="news_blocks">
+                    <div class="news_blocks_wrapper">
+                        <div class="news_left-rectangle-block"></div>
+                        <div class="news_right-rectangle-block"></div>
+                    </div>
+                        <div class="news_block-row">
+                            <div class="first news_block_wrapper">
+                                <div class="news_block">
+                                    <time>15.10.2020</time><br>
+                                    <span>Акции на размещение баннерного панно 20% до конца июля</span>
+                                    <button class="news_btn-more" type="button">Подробнее</button>
+                                </div>
+                            </div>
+                            
+                            <div class="second news_block_wrapper">
+                                <div class="news_block">
+                                    <time>10.10.2020</time><br>
+                                    <span>Мы работаем в обычном режиме с 15 июня!</span>
+                                    <button class="news_btn-more" type="button">Подробнее</button>
+                                </div> 
+                            </div>
+                            <div class="third news_block_wrapper">
+                                <div class="news_block">
+                                    <time>08.10.2020</time><br>
+                                    <span>Как правильно подобрать рекламный канал?</span>
+                                    <button class="news_btn-more" type="button">Подробнее</button>
+                                </div>
+                            </div>
+                                
+                        </div>      
+                </div>
+
+                <div class="news_slider">
+                    <div class="news_slider_wrapper">
+                        <span class="input_news_slider left_radio_button"></span>
+                        <span class="input_news_slider middle_radio_button"></span>
+                        <span class="input_news_slider right_radio_button"></span>
+                    </div>
+                </div>
             </div>
-        </div>
-    </footer>
+        </section>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <div class="footer_container">
+                <div class="logo footer_logo">
+                    <img src="img/logo_footer.png" alt="#">
+                </div>
+                <nav class="footer_row">
+                    <ul>
+                        <li><a>Услуги</a></li>
+                        <li><a>Портфолио</a></li>
+                        <li><a>Отзывы</a></li>
+                        <li><a>Вакансии</a></li>
+                        <li><a>Контакты</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </footer>
+    </div>
 
     <script src="js/script.js"></script>
 </body>
